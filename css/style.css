@@ -20,7 +20,7 @@
     scrollbar-color: #bcbcbc #1c1c1c;
 }
 
-body {
+html, body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -81,15 +81,16 @@ input.input-pesquisa:focus {
 }
 
 .fullscreen-bg {
-    margin-top: -4.8rem;
+    margin-top: -75px;
     position: relative;
-    width: 100%;
-    height: 110vh;
+    width: 100vw;
+    height: 100vh;
     background: url('../assets/imgs/test2.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .fullscreen-bg::before {
@@ -138,13 +139,13 @@ input.input-pesquisa:focus {
 }
 
 .about {
-    margin-top: -3.5rem;
     background-color: #030303;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: wheat;
     padding: 9.4rem 3.1rem;
+    margin: -1px;
 }
 
 .mini-text {
@@ -175,7 +176,7 @@ input.input-pesquisa:focus {
 }
 
 .introducao-personagens {
-    padding: 5.6rem 1.8rem 5rem;
+    padding: 90px 30px 80px;
 }
 
 .text-introducao blockquote{
@@ -551,7 +552,7 @@ header nav button:hover,
     border-radius: 100px;
     flex: 0 0 auto;
     position: relative;
-    width: 15rem;
+    width: 300px;
     height: 100%;
     margin: 0 5px;
     box-sizing: border-box;
@@ -593,7 +594,7 @@ header nav button:hover,
     background: linear-gradient(to top, rgba(0, 0, 0, 0.842) 65%, transparent);
     padding: 1rem .5rem;
     bottom: 0;
-    z-index: 4;
+    z-index: 999;
 }
 
 .info h1 {
@@ -832,6 +833,8 @@ header nav button:hover,
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    margin-top: -1px;
+    z-index: 20;
 }
 
 .footer-svg img {

@@ -2,17 +2,15 @@
 
 @media screen and (max-width: 767px) {
 
-    header {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
-
     .galeria {
-        width: 80%;
+        width: 100%;
         height: 70vh;
         justify-content: flex-start;
         overflow-x: scroll;
+    }
+
+    .tipo-personagem button {
+        margin: 0px;
     }
 
     .single-galeria {
@@ -21,10 +19,14 @@
 
     .personagens-galeria::before,
     .personagens-galeria::after {
-        display: none;
+        width: 50px;
     }
 
-    .scroll-btn{
+    .scroll-btn {
         color: black;
+    }
+
+    .footer-svg {
+        padding-top: 10rem;
     }
 }
