@@ -1,0 +1,458 @@
+[
+    {
+        "nome": "Monkey D.",
+        "nomePrincipal": "Luffy",
+        "recompensa": "3,000,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/luffy.jpg",               
+            "../assets/imgs/imgs-modal/luffy-2.png"
+        ],
+        "descricoes": [
+            "Capitão dos Chapéus de Palha, conhecido por seu sonho de se tornar o Rei dos Piratas.",
+            "No coração dos mares, Monkey D. Luffy é o pirata que desafia imperadores e o Governo Mundial, guiado por seu implacável desejo de liberdade."
+        ],
+        "tipo": ["mugiwara", "imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Gomu Gomu no Mi",
+        "origem": "East Blue",
+        "altura": "1,74m",
+        "idade": "19",
+        "status": "vivo"
+    },
+    {
+        "nome": "Roronoa",
+        "nomePrincipal": "Zoro",
+        "recompensa": "1,111,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/zoro.jpg",
+            "../assets/imgs/imgs-modal/zoro2.png"
+        ],
+        "descricoes": [
+            "Espadachim dos Chapéus de Palha, famoso por seu estilo de luta com três espadas.",
+            "Ele é um dos quatro melhores lutadores da tripulação, ao lado de Luffy, Sanji e Jinbe, e seu sonho é se tornar o maior espadachim do mundo. Zoro também é considerado como um dos doze piratas que são referidos como 'A Pior Geração'"
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Nenhum",
+        "origem": "East Blue",
+        "altura": "1,81m",
+        "idade": "21",
+        "status": "vivo"
+    },
+    {
+        "nome": "",
+        "nomePrincipal": "Nami",
+        "recompensa": "366,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/nami.jpg",
+            "../assets/imgs/imgs-modal/nami-2.png"
+        ],
+        "descricoes": [
+            "Navegadora dos Chapéus de Palha, conhecida por suas habilidades excepcionais em navegação e climatologia.",
+            "Nami, a 'Gata Ladra' é a navegadora dos Piratas do Chapéu de Palha uma dos Oficiais Seniores da Grande Frota do Chapéu de Palha. Ela é o terceiro membro da tripulação e a segunda a entrar fazendo isso durante o Arco Orange Town, anteriormente um membro dos Piratas do Arlong "
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Nenhum",
+        "origem": "East Blue",
+        "altura": "1,70m",
+        "idade": "20",
+        "status": "vivo"
+    },
+    {
+        "nome": "God",
+        "nomePrincipal": "Usopp",
+        "recompensa": "500,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/ussop.jpg",
+            "../assets/imgs/imgs-modal/ussop-2.png"
+        ],
+        "descricoes": [
+            "Atirador dos Chapéus de Palha, engenhoso e conhecido por suas mentiras e habilidades de atirador.",
+            "'God' Usopp é o Atirador dos Piratas do Chapéu de Palha. Apesar de sua covardia normal, Usopp sonha em se tornar um corajoso guerreiro do mar como seu pai, e vive todos os dias em busca de viver à altura deste sonho."
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Nenhum",
+        "origem": "East Blue",
+        "altura": "1,78m",
+        "idade": "19",
+        "status": "vivo"
+    },
+    {
+        "nome":"",
+        "nomePrincipal": "Sanji",
+        "recompensa": "1,032,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/sanji.jpg",
+            "../assets/imgs/imgs-modal/sanji-2.png"
+        ],
+        "descricoes": [
+            "Cozinheiro dos Chapéus de Palha, especializado em combate com os pés e conhecido por suas habilidades culinárias.",
+            "'Perna Preta' Sanji, nascido como Vinsmoke Sanji, e também é o cozinheiro dos Piratas do Chapéu de Palha, assim como um antigo chefe de cozinha do Baratie. Seu sonho é encontrar o paraíso dos chefes, All Blue, sendo esse o lugar onde o todos os mares se encontram, juntamente com sua vida selvagem."
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Nenhum",
+        "origem": "East Blue",
+        "altura": "1,80m",
+        "idade": "21",
+        "status": "vivo"
+    },
+    {
+        "nome": "Tony Tony",
+        "nomePrincipal": "Chopper",
+        "recompensa": "1,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/chopper.jpg",
+            "../assets/imgs/imgs-modal/chopper-2.png"
+        ],
+        "descricoes": [
+            "Médico dos Chapéus de Palha, uma rena que comeu a Fruta do Demônio Hito Hito e pode se transformar em várias formas.",
+            "Tony Tony Chopper é uma rena. Ele é o médico da tripulação dos Piratas do Chapéu de Palha. Chopper é uma rena que, após comer a Hito Hito no Mi, adquiriu a habilidade de se transformar e raciocinar como os humanos. Por ter sido confundido como mascote, a recompensa atual de sua captura é de apenas: "
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Hito Hito no Mi",
+        "origem": "North Blue",
+        "altura": "0,90m",
+        "idade": "17",
+        "status": "vivo"
+    },
+    {
+        "nome": "Nico",
+        "nomePrincipal":"Robin",
+        "recompensa": "930,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/robin.jpg",
+            "../assets/imgs/imgs-modal/robin-2.png"
+        ],
+        "descricoes": [
+            "Arqueóloga dos Chapéus de Palha, possui a habilidade de criar partes do corpo em qualquer lugar graças à Fruta do Demônio Hana Hana.", "Nico Robin, também conhecida como 'Criança Demônio' e 'Luz da Revolução', é a arqueóloga dos Piratas do Chapéu de Palha. Ela é a única sobrevivente da ilha destruída de Ohara, localizada no West Blue. Como resultado, ela é atualmente a única pessoa no mundo com a capacidade de ler e decifrar Poneglyphs, uma habilidade que é considerada proibida e que ameaça o Governo Mundial."
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Hana Hana no Mi",
+        "origem": "West Blue",
+        "altura": "1,88m",
+        "idade": "30",
+        "status": "vivo"
+    },
+    {
+        "nome":"",
+        "nomePrincipal": "Franky",
+        "recompensa": "394,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/franky.jpg",
+            "../assets/imgs/imgs-modal/franky-2.png"
+        ],
+        "descricoes": [
+            "Carpinteiro dos Chapéus de Palha e cyborg, responsável pela construção e manutenção do navio Thousand Sunny.",
+            "Franky é o carpinteiro dos Piratas do Chapéu de Palha. Ele é um cyborg de Water 7 e foi introduzido na história como o líder da Família Franky, um grupo de desmantelamento de navios. Ele foi originalmente chamado de 'Cutty Flam' até trocar seu nome original por seu apelido a pedidos de Iceburg para esconder sua identidade."
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Nenhum",
+        "origem": "South Blue",
+        "altura": "2,30m",
+        "idade": "36",
+        "status": "vivo"
+    },
+    {
+        "nome":"",
+        "nomePrincipal": "Brook",
+        "recompensa": "383,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/brook.jpg",
+            "../assets/imgs/imgs-modal/brook-2.png"
+        ],
+        "descricoes": [
+            "Músico dos Chapéus de Palha, um esqueleto vivo que comeu a Fruta do Demônio Yomi Yomi e pode retornar à vida.",
+            "Brook é o Músico dos Piratas do Chapéu de Palha. Ele é um esqueleto que os Chapéus de Palha encontraram a bordo de um navio fantasma depois de entrarem no Triângulo Florian. Ele é um usuário de Akuma no Mi que comeu a Yomi Yomi no Mi, o que o torna um pseudo-imortal por causa de seus poderes."
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Yomi Yomi no Mi",
+        "origem": "West Blue",
+        "altura": "2,66m",
+        "idade": "90",
+        "status": "vivo"
+    },
+    {
+        "nome":"",
+        "nomePrincipal": "Jinbe",
+        "recompensa": "1,100,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/jinbe.jpg",
+            "../assets/imgs/imgs-modal/jinbe-2.png"
+        ],
+        "descricoes": [
+            "Timoneiro dos Chapéus de Palha e ex-membro dos Sete Corsários, um homem-peixe que é mestre do estilo de combate Fishman Karate.",
+            "'Cavaleiro do Mar' Jinbe é o timoneiro dos Piratas do Chapéu de Palha. Jinbe é um homem-peixe sendo um tubarão-baleia e um poderoso mestre do karatê Homem-Peixe. Seu sonho é realizar o desejo moribundo de seu ex-capitão Fisher Tiger de coexistência e igualdade entre humanos e homens-peixe."
+        ],
+        "tipo": ["mugiwara"],
+        "jolly_roger": "assets/imgs/jollyrogers/one-piece-logo.png",
+        "akuma": "Nenhum",
+        "origem": "Fishman Island",
+        "altura": "3,01m",
+        "idade": "46",
+        "status": "vivo"
+    },
+    {   
+        "nome":"Gol D.",
+        "nomePrincipal": "Roger",
+        "recompensa": "Incalculável",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/gol_d_roger.jpg",
+            "../assets/imgs/imgs-modal/gol_d_roger-2.png"
+        ],
+        "descricoes": [
+            "O Rei dos Piratas que encontrou o One Piece e foi executado, dando início à Grande Era dos Piratas.", "Gol D. Roger, conhecido pela maioria como Gold Roger, foi um lendário pirata que ficou conhecido como Rei dos Piratas, Capitão dos Piratas do Roger, e proprietário do lendário tesouro conhecido como 'One Piece'. Ele também foi o amante de Portgas D. Rouge e pai biológico de Portgas D. Ace."
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-roger.png",
+        "akuma": "Nenhum",
+        "origem": "Grand Line",
+        "altura": "2,74m",
+        "idade": "53",
+        "status": "falecido"
+    },
+    {
+        "nome": "Edward",
+        "nomePrincipal":"Newgate",
+        "recompensa": "5,046,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/barba_branca.jpg",
+            "../assets/imgs/imgs-modal/barba_branca-2.png"
+        ],
+        "descricoes": [
+            "Edward Newgate, conhecido como Barba Branca, foi um dos Quatro Imperadores e o homem mais forte do mundo.", 
+            "Edward Newgate, mais conhecido como 'Barba Branca', foi o capitão dos Piratas do Barba Branca e aquele que ficou conhecido como 'O Homem Mais Forte do Mundo' e 'O Homem Mais Próximo do One Piece' após a morte de Gol D. Roger."
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-newgate.png",
+        "akuma": "Nenhum",
+        "origem": "Grand Line",
+        "altura": "6,66m",
+        "idade": "72",
+        "status": "falecido"
+    },
+    {   
+        "nome":"",
+        "nomePrincipal": "Shanks",
+        "recompensa": "4,048,900,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/shanks.jpg",
+            "../assets/imgs/imgs-modal/shanks-2.png"
+        ],
+        "descricoes": [
+            "Shanks, o Capitão dos Chapéus de Palha, é um dos Quatro Imperadores e conhecido por sua influência no mundo pirata.", 
+            "Shanks, 'o Ruivo', mais conhecido apenas como 'Ruivo', é o chefe dos Piratas do Ruivo e um dos Quatro Imperadores que governam o Novo Mundo. Tendo navegado com os lendários Piratas do Roger desde criança, Shanks começou sua trajetória pirata no navio deles como aprendiz ao lado de Buggy, antes de formar sua própria tripulação após a morte de Roger."
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-shanks.png",
+        "akuma": "Nenhum",
+        "origem": "West Blue",
+        "altura": "1,99m",
+        "idade": "39",
+        "status": "vivo"
+    },
+    {
+        "nome": "Charllotte",
+        "nomePrincipal":"Linlin",
+        "recompensa": "4,388,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/bigmom.jpg",
+            "../assets/imgs/imgs-modal/bigmom-2.png"
+        ],
+        "descricoes": [
+            "Charlotte Linlin, conhecida como Big Mom, é uma das Quatro Imperadores e a capitã dos Piratas Big Mom.",
+            "Charlotte Linlin, mais conhecida como Big Mom, é a capitã dos Piratas da Big Mom e foi anteriormente uma dos Quatro Imperadores governando o Novo Mundo, como o único membro feminino desse grupo. Ela também é a matriarca da grande Família Charlotte, cujos muitos filhos compõem a infraestrutura de sua tripulação. Ela também é a criadora da raça única de criaturas conhecidas como Homies, que principalmente habitam toda Totto Land e servem ela com alegria. "
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-bigmom.png",
+        "akuma": "Soru Soru no Mi",
+        "origem": "Grand Line",
+        "altura": "8,80m",
+        "idade": "68",
+        "status": "desconhecido"
+    },
+    {
+        "nome":"",
+        "nomePrincipal": "Kaido",
+        "recompensa": "4,611,100,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/kaido.jpg",
+            "../assets/imgs/imgs-modal/kaido-2.png"
+        ],
+        "descricoes": [
+            "Kaido, o 'Serpente do Céu', é um dos Quatro Imperadores e é conhecido por sua incrível força e imortalidade.",
+            "Kaidou das Feras, também conhecido como a 'Criatura Mais Forte do Mundo', é o Governador-Geral dos Piratas das Feras e um ex-Yonkou. Ele e sua tripulação ocupavam o País de Wano em aliança com seu shogun, Kurozumi Orochi, e mais recentemente firmaram uma aliança com a companheira Yonkou Big Mom e sua tripulação, os Piratas da Big Mom."
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-kaido.png",
+        "akuma": "Uo Uo no Mi",
+        "origem": "Grand Line",
+        "altura": "7,10m",
+        "idade": "59",
+        "status": "desconhecido"
+    },
+    {
+        "nome": "Marshall D.",
+        "nomePrincipal":"Teach",
+        "recompensa": "3,996,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/barba_negra.jpg",
+            "../assets/imgs/imgs-modal/barba_negra-2.png"
+        ],
+        "descricoes": [
+            "Marshall D. Teach, conhecido como Barba Negra, é o almirante dos Piratas do Barba Negra.",
+            "Marshall D. Teach, mais comumente chamado por seu epíteto Barba Negra, é o capitão que virou almirante dos Piratas do Barba Negra,e um dos Quatro Imperadores. Ele também é a única pessoa conhecida na história a exercer os poderes de duas Akuma no Mi."
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-teach.png",
+        "akuma": "Yami Yami no Mi",
+        "origem": "Grand Line",
+        "altura": "3,44m",
+        "idade": "40",
+        "status": "vivo"
+    },
+    {   
+        "nome":"",
+        "nomePrincipal": "Buggy",
+        "recompensa": "3,189,000,000",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/buggy.jpg",
+            "../assets/imgs/imgs-modal/buggy-2.png"
+        ],
+        "descricoes": [
+            "Buggy, o Palhaço Estrela é o capitão dos Piratas Buggy bem como o líder público da Cross Guild, e um ex-aprendiz dos Piratas do Roger.",
+            "Buggy, o Palhaço Estrela é o capitão dos Piratas Buggy bem como o co-líder da Aliança Buggy e Alvida, e um ex-aprendiz dos Piratas do Roger ao lado de Shanks. Após a Batalha de Marineford, ele se tornou membro dos Shichibukai e líder da organização de despacho pirata 'Buggy's Delivery'. Então reconhecido como um dos Quatro Imperadores após as derrotas de Kaidou e Big Mom e a criação da Cross Guild, da qual ele é publicamente reconhecido como o líder."
+        ],
+        "tipo": ["imperador"],
+        "jolly_roger": "assets/imgs/jollyrogers/jollyroger-buggy.png",
+        "akuma": "Bara Bara no Mi",
+        "origem": "Grand Line",
+        "altura": "1,92m",
+        "idade": "39",
+        "status": "vivo"
+    },
+    {
+        "nome":"",
+        "nomePrincipal": "Sengoku",
+        "recompensa": "N/A",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/sengoku.jpg",
+            "../assets/imgs/imgs-modal/sengoku-2.png"
+        ],
+        "descricoes": [
+            "Sengoku, o Buda, foi o almirante da Marinha durante a Guerra dos Maiorais e é um dos mais respeitados oficiais da Marinha.",
+            "Sengoku, o Buda é um ex-Almirante de Frota da Marinha, sucedendo Kong e precedendo Sakazuki. Ele se aposentou de sua posição de liderança após a Batalha de Marineford, mas permaneceu na Marinha como Inspector-Geral."
+        ],
+        "tipo": ["marinheiro"],
+        "jolly_roger": "assets/imgs/jollyrogers/worldgvt.png",
+        "akuma": "Hito Hito no Mi - Modelo: Daibutsu",
+        "origem": "South Blue",
+        "altura": "2,78m",
+        "idade": "79",
+        "status": "vivo"
+    },
+    {
+        "nome":"Monkey D.",
+        "nomePrincipal": "Garp",
+        "recompensa": "N/A",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/garp.jpg",
+            "../assets/imgs/imgs-modal/garp-2.png"
+        ],
+        "descricoes": [
+            "Monkey D. Garp é um vice-almirante da Marinha, conhecido por sua grande força e pelo seu papel como mentor de diversos personagens importantes. Ele é o avô de Luffy e pai de Dragon.", 
+            "Monkey D. Garp, também conhecido como 'Garp, o Punho', é um Vice-Almirante da Marinha extremamente famoso e poderoso. Ele é o pai de Monkey D. Dragon, o avô paterno de Monkey D. Luffy, e o avô adotivo de Portgas D. Ace. Seus feitos como soldado da Marinha lhe renderam imensa notoriedade e prestígio, e suas ações durante o Incidente de God Valley, em particular, lhe conferiram o título de 'Herói da Marinha'."
+        ],
+        "tipo": ["marinheiro"],
+        "jolly_roger": "assets/imgs/jollyrogers/worldgvt.png",
+        "akuma": "Nenhum",
+        "origem": "East Blue",
+        "altura": "2,87m",
+        "idade": "78",
+        "status": "vivo"
+    },
+    {
+        "nome":"Sakazuki",
+        "nomePrincipal": "Akainu",
+        "recompensa": "N/A",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/akainu.jpg",
+            "../assets/imgs/imgs-modal/akainu-2.png"
+        ],
+        "descricoes": [
+            "Sakazuki, conhecido como Akainu, é o atual Almirante-Chefe da Marinha e possui o poder de magma da Fruta do Demônio Magu Magu no Mi.",
+            "Sakazuki, anteriormente conhecido por seu apelido de almirante Akainu (Cão Vermelho),é o atual Almirante de Frota da Marinha, sucedendo ao Almirante de Frota anterior, Sengoku. Durante a primeira metade da série, ele foi um dos três Almirantes, e foi o último dos três a aparecer. Ao se tornar Almirante da Frota, uma das primeiras decisões de Sakazuki foi mudar o Quartel-General da Marinha para o Novo Mundo em preparação para a Nova Era dos Piratas."
+        ],
+        "tipo": ["marinheiro"],
+        "jolly_roger": "assets/imgs/jollyrogers/worldgvt.png",
+        "akuma": "Magu Magu no Mi",
+        "origem": "Marineford",
+        "altura": "3,06m",
+        "idade": "55",
+        "status": "vivo"
+    },
+    {
+        "nome":"Borsalino",
+        "nomePrincipal": "Kizaru",
+        "recompensa": "N/A",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/kizaru.jpg",
+            "../assets/imgs/imgs-modal/kizaru-2.png"
+        ],
+        "descricoes": [
+            "Borsalino, conhecido como Kizaru, é um almirante da Marinha com o poder da Fruta do Demônio Pika Pika no Mi que lhe permite se mover à velocidade da luz.",
+            "Borsalino, mais comumente conhecido por seu pseudônimo Kizaru, é um Almirante da Marinha. Depois que Kuzan renunciou à Marinha e Sakazuki foi promovido a Almirante da Frota, Kizaru é agora o único Almirante restante do trio anterior. Por causa de suas ações, Kizaru pode ser considerado o antagonista secundário do Arco Arquipélago de Sabaody, um dos dois antagonistas secundários do Arco Marineford (junto com Kuzan), e o antagonista secundário do Arco Egghead."
+        ],
+        "tipo": ["marinheiro"],
+        "jolly_roger": "assets/imgs/jollyrogers/worldgvt.png",
+        "akuma": "Pika Pika no Mi",
+        "origem": "North Blue",
+        "altura": "3,02m",
+        "idade": "58",
+        "status": "vivo"
+    },
+    {
+        "nome": "Issho",
+        "nomePrincipal":"Fujitora",
+        "recompensa": "N/A",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/fujitora.jpg",
+            "../assets/imgs/imgs-modal/fujitora-2.png"
+        ],
+        "descricoes": [
+            "Issho, mais conhecido por seu pseudônimo Fujitora, é um Almirante da Marinha. Ele foi recrutado através de um Recrutamento Militar Mundial", "Issho, mais conhecido por seu pseudônimo Fujitora, é um Almirante da Marinha.Ele foi recrutado através de um Recrutamento Militar Mundial durante o timeskip de dois anos, sendo nomeado para seu posto para preencher as duas vagas de Almirante . Um defensor da 'Justiça Humana', Fujitora liderou notavelmente uma campanha pela abolição do sistema 'Shichibukai', o que aconteceu durante o Levely mais recente."
+        ],
+        "tipo": ["marinheiro"],
+        "jolly_roger": "assets/imgs/jollyrogers/worldgvt.png",
+        "akuma": "Zushi Zushi no Mi",
+        "origem": "Grand Line",
+        "altura": "2,70m",
+        "idade": "54",
+        "status": "vivo"
+    },
+    {
+        "nome": "",
+        "nomePrincipal":"Smoker",
+        "recompensa": "N/A",
+        "imagens": [
+            "../assets/imgs/imgs-personagens/smoker.jpg",
+            "../assets/imgs/imgs-modal/smoker-2.png"
+        ],
+        "descricoes": [
+            "Smoker, o Caçador Branco é um oficial da Marinha estacionado na base G-5.", "Smoker, o Caçador Branco é um oficial da Marinha estacionado na base G-5. Ele foi introduzido pela primeira vez como um capitão em Loguetown, onde ele fez de sua missão de vida capturar Luffy e jogá-lo numa prisão, e mais tarde foi promovido ao cargo de comodoro,devido aos eventos em Alabasta. Em algum ponto durante o timeskip, ele foi promovido ao cargo de Vice-Almirante."
+        ],
+        "tipo": ["marinheiro"],
+        "jolly_roger": "assets/imgs/jollyrogers/worldgvt.png",
+        "akuma": "Moku Moku no Mi",
+        "origem": "Grand Line",
+        "altura": "2,09m",
+        "idade": "36",
+        "status": "vivo"
+    }
+]

@@ -1,0 +1,54 @@
+<li>
+                    <span class="title">${saga.titulo}</span>
+                <div class="data" onclick="abrirInfo(this)">
+                    <div class="title-sagas">
+                        <h3>SAGA</h3>
+                        <h2>East Blue</h2>
+                    </div>
+                    <div class="content-sagas">
+                        <div class="arcos">
+                            <h3>Arcos:</h3>
+                            <nav>
+                                <p>- Romance Down</p>
+                                <p>- Orange Town</p>
+                                <p>- Vila Syrup</p>
+                                <p>- Baratie</p>
+                                <p>- Arlong Park</p>
+                                <p>- Loguetown</p>
+                            </nav>
+                        </div>
+
+                        <span>
+                            A Saga East Blue é o início da jornada de Luffy para se tornar o Rei dos Piratas. Ele reúne os primeiros membros de sua tripulação: Zoro, Nami, Usopp e Sanji. Juntos, eles enfrentam inimigos no East Blue como: Don Kreig, Buggy e Arlong. No final, eles entram na Grand Line. <br>
+
+                            <p>[1  - 100]</p>
+                        </span>
+                    </div>
+                </div>
+                </li>
+
+
+
+                 {
+            "titulo": "Skypiea",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "A Saga Sky Island é uma das sagas mais interessantes de One Piece, onde os Piratas do Chapéu de Palha descobrem a ilha flutuante chamada Skypiea. Eles enfrentam desafios e inimigos únicos nesta nova terra.",
+                "imagem": "../assets/imgs/skypiea.jpg",
+                "capitulos": "[218  -  302]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Jaya",
+                        "descricao": "Quando um navio cai inexplicavelmente do céu e a Log Pose começa a apontar para cima, eles vão para a ilha de Jaya para obter informações sobre a 'Ilha do Céu'. Lá, eles encontram Bellamy, um pirata que está anunciando uma 'Nova Era' onde os piratas não sonham, e um homem chamado Mont Blanc Cricket.",
+                        "imagem": "../assets/imgs/jaya.jpg",
+                        "capitulos": "[218  -  236]"
+                    },
+                    {
+                        "titulo": "Skypeia",
+                        "descricao": "O Arco Skypeia leva os Chapéus de Palha a uma ilha no céu. a tripulação se encontra no 'Mar Branco', um oceano no céu. Os Chapéus de Palha logo descobrem que há uma guerra entre o Povo do Céu e os nativos que originalmente habitaram um lugar conhecido como Upper Yard. Eles também aprendem sobre o cruel Deus Enel.",
+                        "imagem": "../assets/imgs/skypeia.jpg",
+                        "capitulos": "[237  -  302]"
+                    }
+                ]
+            }

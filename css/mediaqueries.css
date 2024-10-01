@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .galeria {
+        width: 80%;
+        height: 70vh;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .single-galeria {
+        min-width: 90% !important;
+    }
+
+    .personagens-galeria::before,
+    .personagens-galeria::after {
+        display: none;
+    }
+
+    .scroll-btn{
+        color: black;
+    }
+}

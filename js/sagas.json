@@ -1,0 +1,349 @@
+{
+    "eventos": [
+        {
+            "titulo": "East Blue",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "A Saga East Blue é o início da jornada de Luffy para se tornar o Rei dos Piratas. Ele reúne os primeiros membros de sua tripulação: Zoro, Nami, Usopp e Sanji. Juntos, eles enfrentam inimigos no East Blue como: Don Kreig, Buggy e Arlong. No final, eles entram na Grand Line.",
+                "imagem": "../assets/imgs/eastblue.jpg",
+                "capitulos" : "[1  - 100]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Romance Down",
+                        "descricao": "O arco Romance Dawn é o começo de One Piece, onde Luffy inicia sua jornada para ser o Rei dos Piratas. Ele ganha poderes elásticos ao comer a fruta Gomu Gomu no Mi e conhece Roronoa Zoro, que se torna seu primeiro companheiro. Além disso, enfrenta a pirata Alvida e ajuda Koby a seguir seu sonho de entrar na Marinha.",
+                        "imagem": "../assets/imgs/romancedown.jpg",
+                        "capitulos" : "[1  -  7]"
+                    },
+                    {
+                        "titulo": "Orange Town",
+                        "descricao": "O Arco Orange Town também conhecido como Arco do Buggy, o palhaço, é o segundo arco da história da Saga East Blue do mangá e anime: One Piece. O arco mostra Monkey D. Luffy, Roronoa Zoro involuntariamente cruzando o caminho de Buggy lutando com ele, e sua tripulação, também para conseguir ajuda de sua futura navegadora, Nami.",
+                        "imagem": "../assets/imgs/orangetown.jpg",
+                        "capitulos" : "[8  -  21]"
+                    },
+                    {
+                        "titulo": "Vila Syrup",
+                        "descricao": "Depois que Nami faz uma parceria com os dois como sua navegadora, a tripulação chega a uma ilha e procura um navio para usar. Lá, eles encontram um mentiroso crônico chamado Usopp. Quando uma trama desonesta é revelada, a coragem de Usopp é colocada à prova e os Piratas do Chapéu de Palha têm que se preparar para uma batalha contra os Piratas Black Cat.",
+                        "imagem": "../assets/imgs/vilasyrup.jpg",
+                        "capitulos" : "[22  -  41]"
+                        
+                    },
+                    {
+                        "titulo": "Baratie",
+                        "descricao": "Usopp se junta à tripulação como um atirador. Em busca de um cozinheiro para seu navio, os Piratas do Chapéu de Palha vão para um restaurante do mar conhecido como Baratie. No entanto, o restaurante é atacado pelo poderoso Don Krieg, que retornou da Grand Line e quer usar o Baratie como um navio para voltar.",
+                        "imagem": "../assets/imgs/baratie.jpg",
+                        "capitulos" : "[42  -  68]"
+                    },
+                    {
+                        "titulo": "Arlong Park",
+                        "descricao": "Com Sanji do Baratie se juntando à tripulação e Nami roubando o navio, os Piratas do Chapéu de Palha a seguem para uma ilha sob o controle do pirata homem-peixe Arlong, um homem-peixe que controla e oprime os moradores da ilha natal de Nami. Nami revela seu passado doloroso com eles. Luffy derrota Arlong, libertando a ilha e fazendo com que Nami se junte oficialmente à tripulação.",
+                        "imagem": "../assets/imgs/arlongpark.jpg",
+                        "capitulos" : "[69  -  95]"
+                    },
+                    {
+                        "titulo": "Loguetown",
+                        "descricao": "Depois que Nami se juntou oficialmente, a tripulação segue para a última cidade antes da entrada da Grand Line, Loguetown, o lugar onde Gold Roger nasceu e foi executado. Eles não terão apenas que lidar com um poderoso capitão da Marinha, mas também com inimigos anteriores à procura de vingança.",
+                        "imagem": "../assets/imgs/loguetown.png",
+                        "capitulos" : "[96  -  100]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Alabasta",
+            "data": "Alabasta",
+            "detalhes": {
+                "tipo": "SAGA",
+                "subtitulo": "Alabasta",
+                "descricao": "A Saga Alabasta, também conhecida como Saga Baroque Works, é a segunda saga de One Piece. Nela, os Piratas do Chapéu de Palha ajudam a princesa Vivi a chegar ao seu reino antes que uma guerra ecloda, enfrentando a organização Baroque Works que tenta impedir seu progresso. A saga inclui cinco arcos de história.",
+                "imagem": "../assets/imgs/alabastasaga.jpg",
+                "capitulos": "[101  -  217]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Reverse Mountain",
+                        "descricao": "os Chapéus de Palha fazem o seu caminho para Reverse Mountain, e começam a tarefa perigosa de escalar sua inclinação e corredeiras traiçoeiras, a fim de entrar na Grand Line, mas eles encontram um obstáculo assim que entram: uma baleia gigante engole o navio inteiro!",
+                        "imagem": "../assets/imgs/reversemountain.jpg",
+                        "capitulos": "[101  -  105]"
+                    },
+                    {
+                        "titulo": "Whisky Peak",
+                        "descricao": "Conduzido pelo misterioso Mr. 9 e Ms. Wednesday, os Chapéus de Palha vão para Whisky Peak, onde as pessoas da cidade iniciam imediatamente uma festa para celebrar a sua chegada. Mas há mais nesta cidade do que parece...",
+                        "imagem": "../assets/imgs/whiskypeak.jpg",
+                        "capitulos": "[106  -  114]"
+                    },
+                    {
+                        "titulo": "Little Garden",
+                        "descricao": "A tripulação pousa em Little Garden, que na verdade é uma enorme ilha que ainda está presa na era pré-histórica. No entanto, há mais do que dinossauros nesta ilha, algo que a tripulação logo descobre quando eles encontram dois gigantes que estão travados em combate por mais de 100 anos e quatro membros de alto escalão da Baroque Works.",
+                        "imagem": "../assets/imgs/littlegarden.jpg",
+                        "capitulos": "[115  -  129]"
+                    },
+                    {
+                        "titulo": "Ilha Drum",
+                        "descricao": "No Arco Drum, a tripulação do Chapéu de Palha vai à ilha de Drum em busca de um médico para tratar Nami. Lá, encontram Chopper, uma rena que se transforma em humano. Após enfrentar o tirano Wapol, que tenta retomar o controle da ilha, Chopper se junta à tripulação como médico, permitindo que eles sigam em frente.",
+                        "imagem": "../assets/imgs/drum.jpg",
+                        "capitulos": "[130  -  154]"
+                    },
+                    {
+                        "titulo": "Alabasta",
+                        "descricao": " Alabasta, que está à beira de uma guerra civil. Vivi deve chegar aos rebeldes e dizer-lhes a causa real por trás do conflito, mas Crocodile, líder da Baroque Works e um dos Shichibukai, não vai ficar parado assistindo. No final, a Baroque Works, as forças marinhas, os piratas, os guardas reais e o exército rebelde se enfrentam em uma batalha que determinará o destino do próprio país.",
+                        "imagem": "../assets/imgs/alabasta.jpg",
+                        "capitulos": "[155  -  217]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Skypiea",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "A Saga Sky Island é uma das sagas mais interessantes de One Piece, onde os Piratas do Chapéu de Palha descobrem a ilha flutuante chamada Skypiea. Eles enfrentam desafios e inimigos únicos nesta nova terra.",
+                "imagem": "../assets/imgs/skypeiasaga.jpg",
+                "capitulos": "[218  -  302]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Jaya",
+                        "descricao": "Quando um navio cai inexplicavelmente do céu e a Log Pose começa a apontar para cima, eles vão para a ilha de Jaya para obter informações sobre a Ilha do Céu. Lá, eles encontram Bellamy, um pirata que está anunciando uma Nova Era onde os piratas não sonham, e um homem chamado Mont Blanc Cricket.",
+                        "imagem": "../assets/imgs/jaya.jpg",
+                        "capitulos": "[218  -  227]"
+                    },
+                    {
+                        "titulo": "Skypiea",
+                        "descricao": "O Arco Skypeia leva os Chapéus de Palha a uma ilha no céu. a tripulação se encontra no Mar Branco, um oceano no céu. Os Chapéus de Palha logo descobrem que há uma guerra entre o Povo do Céu e os nativos que originalmente habitaram um lugar conhecido como Upper Yard. Eles também aprendem sobre o cruel deus Enel.",
+                        "imagem": "../assets/imgs/skypeia.jpg",
+                        "capitulos": "[228  -  302]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Water 7",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "Após a aventura em Skypiea, a tripulação volta ao mar azul, enfrentando Foxy no Davy Back Fight e o almirante Aokiji. Em seguida, eles chegam a Water 7, uma cidade de carpinteiros, onde Luffy busca um novo companheiro e alguém para consertar o navio.",
+                "imagem": "../assets/imgs/water7saga.jpg",
+                "capitulos": "[303  -  441]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Long Land",
+                        "descricao": "A tripulação retorna ao Mar Azul com o ouro e os dials de Skypiea, e encontram Foxy, a Raposa Prateada, um pirata que os desafia para o Davy Back Fight, uma série de jogos em que o vencedor leva tripulantes da equipe perdedora. No entanto, mesmo depois de derrotar Foxy, os Chapéus de Palha encontram um inimigo que eles não têm esperança de vencer.",
+                        "imagem": "../assets/imgs/ringland.jpg",
+                        "capitulos": "[303  -  321]"
+                    },
+                    {
+                        "titulo": "Water 7",
+                        "descricao": "Os Chapéus de Palha chegam a Water 7 em busca de um carpinteiro, mas a tripulação acaba se desfazendo com a saída de dois membros. Eles são acusados de tentar assassinar o prefeito e precisam encontrar o verdadeiro culpado, enquanto enfrentam uma ameaça maior: o grupo de assassinos do governo, a CP9.",
+                        "imagem": "../assets/imgs/water7.jpg",
+                        "capitulos": "[322  -  374]"
+                    },
+                    {
+                        "titulo": "Enies Lobby",
+                        "descricao": "Os Chapéus de Palha, a Família Franky e a Galley-La Company se unem para resgatar Nico Robin, salvar Franky e vingar Iceburg. Para fazer isso, eles atacam Enies Lobby, uma fortaleza do governo que também é a base da CP9, declarando guerra ao Governo Mundial.",
+                        "imagem": "../assets/imgs/enieslobby.jpg",
+                        "capitulos": "[375  -  430]"
+                    },
+                    {
+                        "titulo": "Pós-Enies Lobby",
+                        "descricao": "Descansando depois de suas provações em Enies Lobby, o mundo dos Chapéus de Palha é virado de cabeça para baixo, enquanto rostos familiares retornam com revelações inesperadas para a continuação de sua jornada. Pela Grand Line, Shanks faz seu movimento para proteger o subordinado do Barba Branca, Ace, de um rosto familiar com um novo poder aterrorizante.",
+                        "imagem": "../assets/imgs/posenieslobby.jpg",
+                        "capitulos": "[431  -  441]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Thriller Bark",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "Os Chapéus de Palha viajam para a ilha fantasma de Thriller Bark, onde eles encontram o Shichibukai Gecko Moria. Utilizando seus poderes de Akuma no Mi e as habilidades cirúrgicas de seu subordinado, Dr. Hogback, Moria usa a sombra de Luffy para reviver um lendário gigante, Oars. Com a ajuda de um esqueleto chamado Brook.",
+                "imagem": "../assets/imgs/thrillerbarksaga.jpg",
+                "capitulos": "[442  -  489]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Thriller Bark",
+                        "descricao": "Em Thriller Bark, os Chapéus de Palha entram em um misterioso navio-ilha governado pelo Shichibukai Gecko Moria. Eles enfrentam zumbis e criaturas estranhas, enquanto tentam recuperar as sombras roubadas por Moria. Durante a batalha, eles ganham um novo aliado: o esqueleto músico Brook, que busca sua própria sombra perdida.",
+                        "imagem": "../assets/imgs/thrillerbark.jpg",
+                        "capitulos": "[442  -  489]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Guerra de Marineford",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "A saga segue Luffy após a separação da tripulação em Sabaody. Uma grande guerra entre o Governo Mundial e os Piratas do Barba Branca começa após a captura de Ace, irmão de Luffy. A história culmina na execução de Ace em Marineford, envolvendo várias batalhas épicas.",
+                "imagem": "../assets/imgs/marinefordsaga.jpg",
+                "capitulos": "[490  -  597]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Sabaody",
+                        "descricao": "Ao chegar à Red Line, os Chapéus de Palha tentam encontrar uma forma de chegar à Ilha dos Homens-Peixe. No entanto, são distraídos por uma sereia e uma estrela-do-mar falante, além de se envolverem no resgate de um antigo inimigo. A situação complica quando são confrontados por um Shichibukai, um Almirante da Marinha e oficiais do Governo Mundial.",
+                        "imagem": "../assets/imgs/sabaody.jpg",
+                        "capitulos": "[490  -  513]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Amazon Lily",
+                        "descricao": "Kuma envia cada um dos Piratas do Chapéu de Palha voando do Arquipélago de Sabaody para diferentes ilhas. Este arco centra-se em Luffy, que pousa em uma ilha onde vivem apenas mulheres. Luffy logo descobre que as mulheres na ilha são lideradas pela Shichibukai Boa Hancock.",
+                        "imagem": "../assets/imgs/amazonlily.jpg",
+                        "capitulos": "[514 -  524]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Impel Down",
+                        "descricao": "Conquistando o coração da bela Boa Hancock, Luffy consegue invadir a prisão de Impel Down, na esperança de salvar seu irmão Ace da execução antes que ele desencadeie um confronto final entre os Piratas do Barba Branca e o Governo Mundial.",
+                        "imagem": "../assets/imgs/impeldown.jpg",
+                        "capitulos": "[525  -  549]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Marineford",
+                        "descricao": "Incapaz de resgatar Ace antes de ser transferido, Luffy e seu grupo de fugitivos da prisão seguem atrás dele para Marineford. Com o tempo se esgotando até a execução de Ace, os Piratas do Barba Branca e o Governo Mundial preparam suas forças para uma batalha que poderia mudar drasticamente a era...",
+                        "imagem": "../assets/imgs/marineford.jpg",
+                        "capitulos": "[550  -  580]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Pós-Guerra",
+                        "descricao": "Após a morte de uma figura importante, o mundo mergulha no caos, afetando toda a Grand Line. Luffy, enfrentando uma grande perda, se lembra de algo fundamental: sua tripulação. A grande questão que surge é se os Piratas do Chapéu de Palha conseguirão se reunir novamente.",
+                        "imagem": "../assets/imgs/posguerra.jpg",
+                        "capitulos": "[581  -  597]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Ilha dos Homens-Peixe",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "A saga segue Luffy após a separação da tripulação em Sabaody. Uma grande guerra entre o Governo Mundial e os Piratas do Barba Branca começa após a captura de Ace, irmão de Luffy. A história culmina na execução de Ace em Marineford, envolvendo várias batalhas épicas.",
+                "imagem": "../assets/imgs/homenspeixesaga.jpg",
+                "capitulos": "[598  -  653]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Retorno a Sabaody",
+                        "descricao": "Dois anos se passaram desde que a tripulação foi separada e os Chapéus de Palha treinaram vigorosamente desde então. Eles agora estão prontos para se reunir e continuar sua jornada.",
+                        "imagem": "../assets/imgs/sabaodyreturn.jpg",
+                        "capitulos": "[598  -  602]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Ilha dos Homens-Peixe",
+                        "descricao": "Depois de dois anos, os Chapéus de Palha estão finalmente começando sua jornada submarina para a Ilha dos Homens-Peixe. Quando uma cartomante local prevê que Luffy destruirá a Ilha dos Homens-Peixe, os Chapéus de Palha são falsamente acusados de serem criminosos e, para complicar ainda mais, uma aliança entre Hody Jones e Vander Decken IX ameaça tomar o Reino Ryugu.",
+                        "imagem": "../assets/imgs/homenspeixe.jpg",
+                        "capitulos": "[603 -  653]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Aliança Pirata",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "Os Chapéus de Palha entram no Novo Mundo e atendem a um pedido de socorro de Punk Hazard, um antigo laboratório de Dr. Vegapunk. Lá, eles se envolvem nos experimentos ilegais de Caesar Clown. A tripulação forma uma aliança com Trafalgar Law para derrubar o Yonkou Kaidou. Para isso, enfrentam Donquixote Doflamingo e desvendam uma conspiração de longa data no reino de Dressrosa.",
+                "imagem": "../assets/imgs/aliancapiratasaga.jpg",
+                "capitulos": "[654  -  801]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Punk Hazard",
+                        "descricao": "Ao entrar no Novo Mundo, os Chapéus de Palha atendem a um pedido de socorro de Punk Hazard. Lá, encontram Kinemon, Caesar Clown, Trafalgar Law, Smoker e descobrem conspirações lideradas por Donquixote Doflamingo, o Joker.",
+                        "imagem": "../assets/imgs/punkhazard.jpg",
+                        "capitulos": "[654  -  699]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Dressrosa",
+                        "descricao": "Enquanto Law planeja destruir a Fábrica SMILE em Dressrosa, Luffy participa de um torneio, e o resto da equipe apoia uma rebelião liderada por um soldado de brinquedo e criaturas pequenas. O Almirante Fujitora é enviado para intervir, e um irmão perdido de Luffy reaparece. Doflamingo prende todos em uma jaula gigante, iniciando uma guerra seus piratas e os Chapéus de Palha com seus aliados.",
+                        "imagem": "../assets/imgs/dressrosa.jpg",
+                        "capitulos": "[700  -  801]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Whole Cake",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "Os Chapéus de Palha se reúnem em Zou e formam a Aliança Ninja-Pirata-Mink-Samurai para derrubar Kaidou e o shogun do País de Wano, Kurozumi Orochi. No entanto, eles se desviam do caminho porque Sanji foi levado por outro Yonkou, Big Mom, forçando Luffy a liderar uma equipe em seu território para resgatar o cozinheiro.",
+                "imagem": "../assets/imgs/wholecakesaga.jpg",
+                "capitulos": "[802  -  908]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Zou",
+                        "descricao": "Após Dressrosa, os Chapéus de Palha, Law e o samurai chegam a Zou, um elefante gigante com uma ilha nas costas, lar da Tribo Mink. A tribo se recupera de um ataque de Jack. A tripulação descobre o que aconteceu com Sanji e a verdadeira identidade do samurai. Eles se dividem, com Luffy indo resgatar Sanji, enquanto os outros partem para o País de Wano, onde Kaido está.",
+                        "imagem": "../assets/imgs/zou.jpg",
+                        "capitulos": "[802  -  824]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Ilha Whole Cake",
+                        "descricao": "O grupo de Luffy viaja para Ilha Whole Cake para recuperar Sanji de um casamento político entre a Família Vinsmoke e a Família Charlotte. Eles são capturados entre as agendas ocultas das famílias, e formam uma aliança com Jinbe, Caesar e com os Piratas Fire Tank para derrubar Big Mom e salvar os Vinsmokes.",
+                        "imagem": "../assets/imgs/wholecake.jpg",
+                        "capitulos": "[825  -  902]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Levely",
+                        "descricao": "As notícias das façanhas dos Chapéus de Palha em Totto Land são relatadas ao mundo, à medida que a realeza de todo o mundo se reúne em Mary Geoise para o Levely. Enquanto isso, o Exército Revolucionário se prepara para a próxima jogada, e Big Mom conversa com Kaido sobre Luffy.",
+                        "imagem": "../assets/imgs/levely.jpg",
+                        "capitulos": "[903  -  908]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Wano",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "O grupo de Luffy vai para Wano se reunir com os Chapéus de Palha e seus aliados para planejar um ataque contra Kaidou. No entanto, devido às ações de Luffy em Whole Cake, Big Mom também vai para Wano, querendo derrotá-lo antes de Kaidou. A colisão de forças, junto com os eventos do Levely, ameaça quebrar o equilíbrio mundial.",
+                "imagem": "../assets/imgs/wanosaga.jpg",
+                "capitulos": "[909  -  1057]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "País de Wano",
+                        "descricao": "A Aliança Ninja-Pirata-Mink-Samurai avança no País de Wano para enfrentar os Piratas das Feras, mas Luffy é derrotado por Kaidou. Percebendo a necessidade de mais treinamento para enfrenta-lo, a aliança se prepara. Enquanto isso, Kaidou e Big Mom formam uma aliança. Com todos prontos, a batalha final ocorre na ilha de Onigashima, onde Big Mom, Kaidou e seus subordinados aguardam.",
+                        "imagem": "../assets/imgs/wano.jpg",
+                        "capitulos": "[909  -  1057]"
+                    }
+                ]
+            }
+        },
+        {
+            "titulo": "Atual...",
+            "detalhes": {
+                "tipo": "SAGA",
+                "descricao": "Após o Levely e a derrota de Big Mom e Kaidou, o mundo mergulha no caos com o início de uma guerra global. Os Chapéus de Palha chegam a Egghead, onde uma conspiração visa assassinar Dr. Vegapunk. Envolvidos em um incidente que abala o mundo e atraem a ira de Imu, eles fogem para Elbaf, a terra dos Gigantes.",
+                "imagem": "../assets/imgs/sagaatual.jpg",
+                "capitulos": "[1058  -  ]",
+                "arcos": [
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Egghead",
+                        "descricao": "As consequências do Levely, do ataque a Onigashima e do extermínio do Reino Lulusia provocam mudanças que podem resultar em uma guerra global. Os Piratas do Chapéu de Palha chegam à ilha futurista Egghead, onde está o Dr. Vegapunk. Após descobrir sua pesquisa sobre o Século Perdido, o Governo Mundial envia a CP0 para assassina-lo. Traições e intrigas culminam em um cerco da Marinha na ilha, gerando um incidente que chocará o mundo.",
+                        "imagem": "../assets/imgs/egghead.jpg",
+                        "capitulos": "[1058  -  1125]"
+                    },
+                    {
+                        "tipo": "ARCO",
+                        "titulo": "Elbaf",
+                        "descricao": "Após o Incidente de Egghead, os Piratas do Chapéu de Palha vão para Elbaf com os Piratas Guerreiros Gigantes.",
+                        "imagem": "../assets/imgs/elbaf.jpg",
+                        "capitulos": "[1126  -  ]"
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
+

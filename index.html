@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" name="search" id="" placeholder="Procurar" class="input-pesquisa" maxlength="20">
+        </div>
+        <nav>
+            <button onclick="descerSecao('about-text')">Sobre</button>
+            <button onclick="descerSecao('personagens')">Personagens</button>
+        </nav>
+    </header>
+    <section class="fullscreen-bg">
+        <div class="logo-bg">
+            <img src="assets/imgs/logo-branco.png" alt="">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="mini-text">
+            <p>sobre</p>
+            <p>história</p>
+            <p>mangá</p>
+        </div>
+
+        <div class="about-text">
+            <h2>One Piece</h2>
+            <p>One Piece é um anime e mangá criado por Eiichiro Oda. A história segue Monkey D. Luffy, um jovem pirata
+                que sonha em encontrar o tesouro "One Piece" e se tornar o Rei dos Piratas. </p>
+            <p>O mangá, lançado em 1997, é conhecido por seu enredo envolvente e personagens carismáticos, sendo um dos
+                maiores sucessos da história dos quadrinhos (+ 500 milhões de cópias vendidas) e da animação japonesa.
+            </p>
+        </div>
+    </section>
+    <div class="about-img">
+
+    </div>
+
+    <div class="introducao-personagens about">
+
+        <div class="mini-text">
+            <p>historia</p>
+            <p>universo</p>
+            <p>piratas</p>
+        </div>
+
+        <div class="about-text text-introducao" id="about-text">
+            <h2>Conheça o mundo de One Piece</h2>
+            <blockquote>"Eu decidi desenhar o mangá que gostaria ler quando era jovem. Quando comecei, tive que desenhar coisas que não existiam para chamar a atenção." - Eiichiro Oda</blockquote>
+            <p>O universo de One Piece é vasto e repleto de aventuras. A história se passa em um mundo dominado por oceanos, onde piratas buscam o tesouro lendário conhecido como One Piece, deixado pelo Rei dos Piratas, <span id="Roger">Gol D. Roger.</span></p><br>
+            <p>O mundo é regido por três grandes forças: a <span id="link-marinha">Marinha</span>, que trabalha para o Governo Mundial, os <span id="link-imperadores">Quatro Imperadores</span>, os piratas mais poderosos dos mares, e os Revolucionários, que buscam derrubar o governo. Os piratas, liderados por capitães como <span id="Luffy">Luffy</span>, exploram o mundo em busca do lendário tesouro One Piece, enquanto enfrentam desafios vindos de outras tripulações, do governo e de figuras poderosas. O equilíbrio entre esses poderes molda os eventos e as sagas que definem essa jornada épica.</p>
+            <br>
+
+            <p>Conheça abaixo as sagas e arcos desta obra:</p>
+        </div>
+
+    </div>
+
+    <div class="sagas">
+        <p class="ajuda">clique na bolinha pra saber mais sobre a saga</p>
+        <div class="timeline-wrapper">
+            <ul class="timeline">
+                <li data-date="1997" class="fixed">
+                    <span class="title">Inicio</span>
+                    <div class="data"></div>
+                </li>
+        
+                <li data-date="Em Andamento" class="fixed" >
+                        <span class="title">Atual</span>
+                        <div class="data"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="introducao-personagens about">
+        <div class="about-text text-introducao">
+            <h2>Conheça os Destemidos do Mar</h2>
+            <blockquote>"Luffy é o que mais me dá trabalho. Tenho que limitá-lo com obstáculos, senão ele logo derrota o
+                vilão. Meus personagens agem como se tivessem vontade própria. " - Eiichiro Oda</blockquote>
+            <p>O mundo de One Piece é vasto e cheio de personagens únicos, cada um com seus próprios sonhos, habilidades
+                e histórias. Da lendária tripulação dos <span id="link-mugiwaras">Chapéus de Palha</span> a temíveis antagonistas e aliados memoráveis.
+                Explore abaixo alguns dos que moldaram essa incrível aventura:</p>
+
+            
+        </div>
+
+        <div class="mini-text">
+            <p>vida</p>
+            <p>personagens</p>
+            <p>criação</p>
+        </div>
+    </div>
+
+    <section class="personagens" id="personagens">
+        <div class="title-personagens">
+            <h2>Personagens</h2>
+        </div>
+        <nav class="tipo-personagem">
+            <div class="nav-buttons">
+                <button id="btn-mugiwaras" class="active">Mugiwaras</button>
+                <button id="btn-imperadores">Imperadores</button>
+                <button id="btn-marinha">Marinha</button>
+            </div>
+            <p class="ajuda">passe o mouse sobre o personagem e clique em <ion-icon name="open-outline"></ion-icon> para saber mais
+            </p>
+        </nav>
+        <div class="personagens-galeria">
+            <button class="scroll-btn left" onclick="scrolLeft()">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <div class="galeria">
+
+            </div>
+            <button class="scroll-btn right" onclick="scrolRight()""><ion-icon
+                    name="chevron-forward-outline"></ion-icon></button>
+        </div>
+    </section>
+
+
+    <section class=" footer-svg">
+        <img src="assets/imgs/imgs-modal/luffyg5.png" alt="">
+        <div class="bottom-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.dev/svgjs" width="1920" height="560" preserveAspectRatio="none"
+                viewBox="0 0 1920 560">
+                <g mask="url(&quot;#SvgjsMask1013&quot;)" fill="none">
+                    <path
+                        d="M2016 560L0 560 L0 228.07Q126.4 194.47, 160 320.87Q227.03 227.9, 320 294.93Q368.19 183.12, 480 231.3Q598.18 189.48, 640 307.66Q712.91 220.58, 800 293.49Q904.8 238.29, 960 343.09Q1009.18 232.27, 1120 281.45Q1208.79 210.24, 1280 299.03Q1283.38 206.41, 1376 209.8Q1450.65 124.45, 1536 199.1Q1641.99 145.09, 1696 251.09Q1768.26 163.35, 1856 235.61Q1960.7 180.31, 2016 285.01z"
+                        fill="rgba(112, 112, 114, 1)"></path>
+                    <path
+                        d="M1984 560L0 560 L0 372.24Q134.2 346.44, 160 480.64Q196.71 357.35, 320 394.06Q373.42 351.48, 416 404.9Q524.55 353.45, 576 462Q649.82 375.82, 736 449.65Q761.1 314.75, 896 339.85Q986.04 269.89, 1056 359.93Q1118.53 262.46, 1216 324.99Q1291.67 304.66, 1312 380.34Q1433.86 342.19, 1472 464.05Q1515.17 347.23, 1632 390.4Q1647.98 310.38, 1728 326.36Q1829.31 267.67, 1888 368.98Q1965.62 350.6, 1984 428.21z"
+                        fill="rgba(208, 208, 208, 1)"></path>
+                    <path
+                        d="M2080 560L0 560 L0 569.18Q48.35 521.53, 96 569.88Q89.85 467.73, 192 461.58Q262.51 372.09, 352 442.6Q419.94 414.54, 448 482.47Q507.21 445.69, 544 504.9Q664.79 465.69, 704 586.48Q765.46 487.94, 864 549.41Q972.92 498.33, 1024 607.24Q1026.93 450.17, 1184 453.1Q1271.26 380.36, 1344 467.61Q1413.65 441.26, 1440 510.91Q1508.71 419.63, 1600 488.34Q1729.12 457.46, 1760 586.57Q1831.63 498.21, 1920 569.84Q1943.56 433.4, 2080 456.96z"
+                        fill="rgba(251, 246, 246, 1)"></path>
+                </g>
+                <defs>
+                    <mask id="SvgjsMask1013">
+                        <rect width="1920" height="560" fill="#ffffff"></rect>
+                    </mask>
+                </defs>
+            </svg>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/dados.json"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
