@@ -39,7 +39,7 @@
 
     .modal {
         width: 100vw;
-        height: 100dvh;
+        height: 100vh;
         border-radius: 0px;
         overflow-y: hidden;
         margin-bottom: 0px;
@@ -70,7 +70,6 @@
     .content-modal {
         display: flex;
         flex-direction: column;
-        
     }
 
     .modal-text {
@@ -82,6 +81,7 @@
         backdrop-filter: blur(15px);
         border-radius: 40px 40px 0px 0px;
         padding: 20px;
+        height: 50dvh;
     }
 
     .modal-text > img {
