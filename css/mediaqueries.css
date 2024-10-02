@@ -96,6 +96,7 @@
 
     .fechar-modal {
         color: white;
+        position: fixed;
     }
     
     .footer-svg {
