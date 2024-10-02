@@ -39,7 +39,7 @@
 
     .modal {
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
         border-radius: 0px;
         overflow-y: hidden;
         margin-bottom: 0px;
@@ -80,7 +80,6 @@
         background-color: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(15px);
         border-radius: 40px 40px 0px 0px;
-
     }
 
     .modal-text > img {
