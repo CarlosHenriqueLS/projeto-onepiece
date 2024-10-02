@@ -681,7 +681,6 @@ header nav button:hover,
     position: relative;
     width: 70%;
     height: 70%;
-    min-width: 450px;
     min-height: 500px;
     background-color: #030303;
     padding: 50px;

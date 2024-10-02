@@ -22,9 +22,42 @@
         width: 50px;
     }
 
-    .scroll-btn {
-        color: black;
+    .btn-modal {
+        visibility: visible; 
+        opacity: 1;
+        bottom: 580px;
     }
+
+    .single-galeria:hover .btn-modal {
+        visibility: visible; 
+        opacity: 1;
+    }
+
+    .scroll-btn {
+        display: none;
+    }
+
+    .modal {
+        width: 80vw;
+        height: 90vh;
+        
+    }
+
+    .branco-modal {
+        
+    }
+
+    .img-modal {
+        top: 50%;
+    }
+
+    .img-modal img {
+        width: 400px;
+    }
+
+    .content-modal {
+        padding-bottom: 270px;
+      }
 
     .footer-svg {
         padding-top: 10rem;
