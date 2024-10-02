@@ -80,13 +80,14 @@
     }
 
     .modal-text {
-        top: 55%;
         left:  0%;
         bottom: 0;
         width: 100dvw;
         background-color: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(15px);
         border-radius: 40px 40px 0px 0px;
+        overflow-y: scroll;
+        padding: 30px;
     }
 
     .modal-text > img {
