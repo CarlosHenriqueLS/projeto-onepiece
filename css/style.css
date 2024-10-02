@@ -216,6 +216,7 @@ input.input-pesquisa:focus {
     align-items: center;
 
     overflow-x: auto;
+    overflow-y: hidden; 
 }
 
 .timeline {
@@ -228,11 +229,14 @@ input.input-pesquisa:focus {
     --scale: 1;
 
     display: flex;
+    
 }
 
 .timeline > li {
     position: relative;
-    width: 25rem;
+    width: 50%;
+    min-width: 300px;
+    margin: 0 1rem; /* Adicione espaçamento entre itens */
 }
 
 .fixed {

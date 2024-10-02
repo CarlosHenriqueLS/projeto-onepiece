@@ -17,38 +17,43 @@ function abrirModal() {
     modal.classList.add('abrir')
 }
 
-const timelineWrapper = document.querySelector('.timeline-wrapper')
+window.onresize = function() {
+    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (w < 767) {
+        console.log("oi");
+    }
+};
 
-// Função para lidar com movimento da timeline
-function handleTimelineMove(pageX) {
-    const timeline = document.querySelector('.timeline');
-    const maxScroll = timelineWrapper.clientWidth - timeline.clientWidth; // Limite máximo de rolagem
+// Seleciona o elemento timelineWrapper
+const timelineWrapper = document.querySelector('.timeline-wrapper');
 
-    // Calcula o movimento da linha do tempo
-    let scrollWidth = pageX / timelineWrapper.clientWidth * maxScroll;
+// Função para adicionar ou remover o evento mousemove baseado no tamanho da tela
+function handleResize() {
+    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    // Limita o valor de scrollWidth entre 0 (início) e maxScroll (fim)
-    if (scrollWidth > 0) {
-        scrollWidth = 0; // Não permitir que mova para a direita além do começo
-    } else if (scrollWidth < maxScroll) {
-        scrollWidth = maxScroll; // Não permitir que mova para a esquerda além do final
+    // Função para o movimento da linha do tempo
+    function handleMouseMove(event) {
+        const timeline = document.querySelector('.timeline');
+        let scrollWidth = event.pageX / timelineWrapper.clientWidth * (timelineWrapper.clientWidth - timeline.clientWidth);
+        timeline.style.left = scrollWidth.toFixed(1) + 'px';
     }
 
-    // Aplica o movimento à linha do tempo
-    timeline.style.left = scrollWidth.toFixed(1) + 'px';
+    // Se a largura for menor que 767px, remove o evento
+    if (w < 767) {
+        timelineWrapper.removeEventListener('mousemove', handleMouseMove);
+        console.log("Desativado no mobile");
+    } else {
+        // Se a largura for maior ou igual a 767px, adiciona o evento
+        timelineWrapper.addEventListener('mousemove', handleMouseMove);
+        console.log("Ativado no desktop");
+    }
 }
 
-// Evento para desktop (mouse)
-timelineWrapper.addEventListener('mousemove', (event) => {
-    handleTimelineMove(event.pageX);
-});
+// Executa a verificação de redimensionamento ao carregar a página
+handleResize();
 
-// Evento para mobile (toque)
-timelineWrapper.addEventListener('touchmove', (event) => {
-    const touch = event.touches[0]; // Pega o primeiro toque
-    handleTimelineMove(touch.pageX);
-});
-
+// Verifica sempre que a janela for redimensionada
+window.onresize = handleResize;
 
 let personagensData = []
 let sagasData = []
@@ -231,17 +236,13 @@ function abrirInfo(elemento) {
     elemento.classList.add('show')
 }
 
-function handleClickOutside(event) {
-    const dataElement = document.querySelector('.data.show');
+document.addEventListener('click', function (event) {
+    const dataElement = document.querySelector('.data.show')
     if (dataElement && !dataElement.contains(event.target)) {
-        dataElement.classList.remove('show');
+        dataElement.classList.remove('show')
     }
-}
 
-// Evento para desktop (mouse) e mobile (toque)
-document.addEventListener('click', handleClickOutside);
-document.addEventListener('touchstart', handleClickOutside); // Suporte para mobile (toque)
-
+})
 
 function fecharModal() {
     const modal = document.querySelector('.janela-modal')
