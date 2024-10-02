@@ -19,12 +19,36 @@ function abrirModal() {
 
 const timelineWrapper = document.querySelector('.timeline-wrapper')
 
-timelineWrapper.addEventListener('mousemove', (event) => {
-    const timeline = document.querySelector('.timeline')
-    let scrollWidth = event.pageX / timelineWrapper.clientWidth * (timelineWrapper.clientWidth - timeline.clientWidth)
+// Função para lidar com movimento da timeline
+function handleTimelineMove(pageX) {
+    const timeline = document.querySelector('.timeline');
+    const maxScroll = timelineWrapper.clientWidth - timeline.clientWidth; // Limite máximo de rolagem
 
-    timeline.style.left = scrollWidth.toFixed(1) + 'px'
-})
+    // Calcula o movimento da linha do tempo
+    let scrollWidth = pageX / timelineWrapper.clientWidth * maxScroll;
+
+    // Limita o valor de scrollWidth entre 0 (início) e maxScroll (fim)
+    if (scrollWidth > 0) {
+        scrollWidth = 0; // Não permitir que mova para a direita além do começo
+    } else if (scrollWidth < maxScroll) {
+        scrollWidth = maxScroll; // Não permitir que mova para a esquerda além do final
+    }
+
+    // Aplica o movimento à linha do tempo
+    timeline.style.left = scrollWidth.toFixed(1) + 'px';
+}
+
+// Evento para desktop (mouse)
+timelineWrapper.addEventListener('mousemove', (event) => {
+    handleTimelineMove(event.pageX);
+});
+
+// Evento para mobile (toque)
+timelineWrapper.addEventListener('touchmove', (event) => {
+    const touch = event.touches[0]; // Pega o primeiro toque
+    handleTimelineMove(touch.pageX);
+});
+
 
 let personagensData = []
 let sagasData = []
@@ -207,13 +231,17 @@ function abrirInfo(elemento) {
     elemento.classList.add('show')
 }
 
-document.addEventListener('click', function (event) {
-    const dataElement = document.querySelector('.data.show')
+function handleClickOutside(event) {
+    const dataElement = document.querySelector('.data.show');
     if (dataElement && !dataElement.contains(event.target)) {
-        dataElement.classList.remove('show')
+        dataElement.classList.remove('show');
     }
+}
 
-})
+// Evento para desktop (mouse) e mobile (toque)
+document.addEventListener('click', handleClickOutside);
+document.addEventListener('touchstart', handleClickOutside); // Suporte para mobile (toque)
+
 
 function fecharModal() {
     const modal = document.querySelector('.janela-modal')
