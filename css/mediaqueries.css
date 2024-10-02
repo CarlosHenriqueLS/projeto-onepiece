@@ -50,6 +50,7 @@
         height: 100dvh;
         border-radius: 0px;
         margin-bottom: 0px;
+        overflow: hidden;
     }
 
     .branco-modal {
