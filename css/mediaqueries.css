@@ -23,13 +23,13 @@
     }
 
     .btn-modal {
-        visibility: visible; 
+        visibility: visible;
         opacity: 1;
         bottom: 580px;
     }
 
     .single-galeria:hover .btn-modal {
-        visibility: visible; 
+        visibility: visible;
         opacity: 1;
     }
 
@@ -38,27 +38,60 @@
     }
 
     .modal {
-        width: 80vw;
-        height: 90vh;
-        
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+        overflow-y: hidden;
+        margin-bottom: 0px;
     }
 
     .branco-modal {
-        
+        background-color: #030303;
     }
 
     .img-modal {
-        top: 50%;
+        top: 10%;
+        left: 30%;
+        height: 0%;
     }
 
     .img-modal img {
-        width: 400px;
+        max-width: 500px; 
+        height: auto;  
+        object-fit: contain;
+    }
+
+    .info-modal {
+        color: white;
+        margin-bottom: 20rem;
+        z-index: 10;
     }
 
     .content-modal {
-        padding-bottom: 270px;
-      }
+        display: flex;
+        flex-direction: column;
+        
+    }
 
+    .modal-text {
+        top: 55%;
+        left:  0%;
+        bottom: 0;
+        width: 100dvw;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 40px 40px 0px 0px;
+        padding: 20px;
+    }
+
+    .modal-text > img {
+        margin-bottom:-30px ;
+    }
+
+    .fechar-modal {
+        color: white;
+    }
+    
     .footer-svg {
         padding-top: 10rem;
     }
