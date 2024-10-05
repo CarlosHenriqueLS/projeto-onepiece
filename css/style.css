@@ -197,6 +197,7 @@ input.input-pesquisa:focus {
 .sagas {
     background-color: #030303;
     height: 100vh;
+    position: relative;
 }
 
 .timeline-wrapper::-webkit-scrollbar {
@@ -236,7 +237,6 @@ input.input-pesquisa:focus {
     position: relative;
     width: 50%;
     min-width: 300px;
-    margin: 0 1rem; /* Adicione espaçamento entre itens */
 }
 
 .fixed {
@@ -654,6 +654,12 @@ header nav button:hover,
     z-index: 10;
     padding: 50px;
     transition: transform 0.2s ease;
+}
+
+.sagas > .scroll-btn {
+    top: 20%;
+    right: 70%;
+    left: 70%;
 }
 
 .scroll-btn:active {

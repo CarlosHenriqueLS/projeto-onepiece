@@ -1,59 +1,18 @@
-function scrolLeft() {
-    document.querySelector('.galeria').scrollBy({
-        left: -400,
+function scrollElement(selector, direction) {
+    document.querySelector(selector).scrollBy({
+        left: direction === 'left' ? -400 : 400, // Esquerda ou direita
         behavior: 'smooth'
-    })
+    });
 }
 
-function scrolRight() {
-    document.querySelector('.galeria').scrollBy({
-        left: 400,
-        behavior: 'smooth'
-    })
-}
+const timeline = document.querySelector('.timeline')
+
+timeline.style.left = '0'
 
 function abrirModal() {
     const modal = document.getElementById('janela-modal')
     modal.classList.add('abrir')
 }
-
-window.onresize = function() {
-    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    if (w < 767) {
-        console.log("oi");
-    }
-};
-
-// Seleciona o elemento timelineWrapper
-const timelineWrapper = document.querySelector('.timeline-wrapper');
-
-// Função para adicionar ou remover o evento mousemove baseado no tamanho da tela
-function handleResize() {
-    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-    // Função para o movimento da linha do tempo
-    function handleMouseMove(event) {
-        const timeline = document.querySelector('.timeline');
-        let scrollWidth = event.pageX / timelineWrapper.clientWidth * (timelineWrapper.clientWidth - timeline.clientWidth);
-        timeline.style.left = scrollWidth.toFixed(1) + 'px';
-    }
-
-    // Se a largura for menor que 767px, remove o evento
-    if (w < 767) {
-        timelineWrapper.removeEventListener('mousemove', handleMouseMove);
-        console.log("Desativado no mobile");
-    } else {
-        // Se a largura for maior ou igual a 767px, adiciona o evento
-        timelineWrapper.addEventListener('mousemove', handleMouseMove);
-        console.log("Ativado no desktop");
-    }
-}
-
-// Executa a verificação de redimensionamento ao carregar a página
-handleResize();
-
-// Verifica sempre que a janela for redimensionada
-window.onresize = handleResize;
 
 let personagensData = []
 let sagasData = []
@@ -241,7 +200,6 @@ document.addEventListener('click', function (event) {
     if (dataElement && !dataElement.contains(event.target)) {
         dataElement.classList.remove('show')
     }
-
 })
 
 function fecharModal() {

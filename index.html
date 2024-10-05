@@ -56,9 +56,17 @@
 
         <div class="about-text text-introducao" id="about-text">
             <h2>Conheça o mundo de One Piece</h2>
-            <blockquote>"Eu decidi desenhar o mangá que gostaria ler quando era jovem. Quando comecei, tive que desenhar coisas que não existiam para chamar a atenção." - Eiichiro Oda</blockquote>
-            <p>O universo de One Piece é vasto e repleto de aventuras. A história se passa em um mundo dominado por oceanos, onde piratas buscam o tesouro lendário conhecido como One Piece, deixado pelo Rei dos Piratas, <span id="Roger">Gol D. Roger.</span></p><br>
-            <p>O mundo é regido por três grandes forças: a <span id="link-marinha">Marinha</span>, que trabalha para o Governo Mundial, os <span id="link-imperadores">Quatro Imperadores</span>, os piratas mais poderosos dos mares, e os Revolucionários, que buscam derrubar o governo. Os piratas, liderados por capitães como <span id="Luffy">Luffy</span>, exploram o mundo em busca do lendário tesouro One Piece, enquanto enfrentam desafios vindos de outras tripulações, do governo e de figuras poderosas. O equilíbrio entre esses poderes molda os eventos e as sagas que definem essa jornada épica.</p>
+            <blockquote>"Eu decidi desenhar o mangá que gostaria ler quando era jovem. Quando comecei, tive que desenhar
+                coisas que não existiam para chamar a atenção." - Eiichiro Oda</blockquote>
+            <p>O universo de One Piece é vasto e repleto de aventuras. A história se passa em um mundo dominado por
+                oceanos, onde piratas buscam o tesouro lendário conhecido como One Piece, deixado pelo Rei dos Piratas,
+                <span id="Roger">Gol D. Roger.</span></p><br>
+            <p>O mundo é regido por três grandes forças: a <span id="link-marinha">Marinha</span>, que trabalha para o
+                Governo Mundial, os <span id="link-imperadores">Quatro Imperadores</span>, os piratas mais poderosos dos
+                mares, e os Revolucionários, que buscam derrubar o governo. Os piratas, liderados por capitães como
+                <span id="Luffy">Luffy</span>, exploram o mundo em busca do lendário tesouro One Piece, enquanto
+                enfrentam desafios vindos de outras tripulações, do governo e de figuras poderosas. O equilíbrio entre
+                esses poderes molda os eventos e as sagas que definem essa jornada épica.</p>
             <br>
 
             <p>Conheça abaixo as sagas e arcos desta obra:</p>
@@ -68,27 +76,36 @@
 
     <div class="sagas">
         <p class="ajuda">clique na bolinha pra saber mais sobre a saga</p>
+        <button class="scroll-btn left" onclick="scrollElement('.timeline-wrapper', 'left')">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
         <div class="timeline-wrapper">
             <ul class="timeline">
                 <li data-date="1997" class="fixed">
                     <span class="title">Inicio</span>
                     <div class="data"></div>
                 </li>
-        
-                <li data-date="Em Andamento" class="fixed" >
-                        <span class="title">Atual</span>
-                        <div class="data"></div>
+
+                <li data-date="Em Andamento" class="fixed">
+                    <span class="title">Atual</span>
+                    <div class="data"></div>
                 </li>
             </ul>
         </div>
+        <button class="scroll-btn right sagas-btn" onclick="scrollElement('.timeline-wrapper', 'right')">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
     </div>
+
+
     <div class="introducao-personagens about">
         <div class="about-text text-introducao">
             <h2>Conheça os Destemidos do Mar</h2>
             <blockquote>"Luffy é o que mais me dá trabalho. Tenho que limitá-lo com obstáculos, senão ele logo derrota o
                 vilão. Meus personagens agem como se tivessem vontade própria. " - Eiichiro Oda</blockquote>
             <p>O mundo de One Piece é vasto e cheio de personagens únicos, cada um com seus próprios sonhos, habilidades
-                e histórias. Da lendária tripulação dos <span id="link-mugiwaras">Chapéus de Palha</span> a temíveis antagonistas e aliados memoráveis.
+                e histórias. Da lendária tripulação dos <span id="link-mugiwaras">Chapéus de Palha</span> a temíveis
+                antagonistas e aliados memoráveis.
                 Explore abaixo alguns dos que moldaram essa incrível aventura:</p>
         </div>
         <div class="mini-text">
@@ -107,17 +124,18 @@
                 <button id="btn-imperadores">Imperadores</button>
                 <button id="btn-marinha">Marinha</button>
             </div>
-            <p class="ajuda">passe o mouse sobre o personagem e clique em <ion-icon name="open-outline"></ion-icon> para saber mais
+            <p class="ajuda">passe o mouse sobre o personagem e clique em <ion-icon name="open-outline"></ion-icon> para
+                saber mais
             </p>
         </nav>
         <div class="personagens-galeria">
-            <button class="scroll-btn left" onclick="scrolLeft()">
+            <button class="scroll-btn left" onclick="scrollElement('.galeria', 'left')">
                 <ion-icon name="chevron-back-outline"></ion-icon>
             </button>
             <div class="galeria">
 
             </div>
-            <button class="scroll-btn right" onclick="scrolRight()""><ion-icon
+            <button class="scroll-btn right" onclick="scrollElement('.galeria', 'right')"><ion-icon
                     name="chevron-forward-outline"></ion-icon></button>
         </div>
     </section>
