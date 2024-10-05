@@ -144,14 +144,12 @@ async function carregarTimeline() {
         </div>
     </div>
 `
-
             const dataShow = li.querySelector('.data');
             dataShow.style.backgroundImage = `
     linear-gradient(to right, black 30%, transparent 100%),
     linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.467)),
     url('${saga.detalhes.imagem}')
 `;
-
 
             const ultimoItemFixado = document.querySelector('.timeline li.fixed:last-of-type')
             timeline.insertBefore(li, ultimoItemFixado)
@@ -177,12 +175,26 @@ function mudarConteudo(titulo, descricao, imagem, tipo = 'ARCO', capitulos) {
     const capitulosP = descricaoSpan.querySelector('h4');
     capitulosP.innerHTML = capitulos ? capitulos : '';
 
-    if (dataShow) {
-        dataShow.style.backgroundImage = `
-            linear-gradient(to right, black 30%, transparent 100%),
-            linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.655)),
-            url('${imagem}')
-        `;
+ if (dataShow) {
+        if (window.innerWidth <= 768) {
+            // Tela menor - imagem acima
+            dataShow.style.backgroundImage = `
+                linear-gradient(to top, black 30%, transparent 100%),
+                linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.655)),
+                url('${imagem}')
+            `;
+            dataShow.style.backgroundPosition = 'top';
+            dataShow.style.backgroundSize = 'cover';
+        } else {
+            // Tela maior - imagem ao lado
+            dataShow.style.backgroundImage = `
+                linear-gradient(to right, black 30%, transparent 100%),
+                linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.655)),
+                url('${imagem}')
+            `;
+            dataShow.style.backgroundPosition = 'center';
+            dataShow.style.backgroundSize = 'cover';
+        }
     }
 }
 

@@ -97,9 +97,34 @@
         margin-bottom:-30px ;
     }
 
+    .data.show {
+        width: 100vw;
+        height: auto;
+    }
+
     .fechar-modal {
         color: white;
         position: fixed;
+    }
+
+    .content-sagas {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content-sagas p {
+        width: 80vw;
+    }
+
+    .content-sagas  span {
+        width: auto;
+        margin-left: -20px;
+    }
+
+    .content-sagas  span h4 {
+        margin-left: 25px;
     }
     
     .footer-svg {
